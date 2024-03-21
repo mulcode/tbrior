@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+.wrapper {
+    position: relative;
+    max-width: 1440px;
+    /* background-image: url("images/new_design.png"); */
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #121413;
+    margin: 0 auto;
+}
+.hero {
+    background: none;
+}
+.hero-img {
+    width: 40%;
+    opacity: .3;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.header{
+    height: 85px;
+    border: 1px solid wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    color: #FFF;
+}
+.logo-text{
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 12px;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    list-style: none;
+    padding-left: 25px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.hero{
+    height: 856px;
+}
